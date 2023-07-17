@@ -32,7 +32,7 @@ ul>li>a {
 .title{
     
     width: 50%;
-    padding-left: 10px;
+    padding-left: 10vw;
 }
 
 .nav1{
@@ -42,7 +42,7 @@ ul>li>a {
 
 .hamburguesa{
     display: flex;
-    padding: 10px 0px 10px 200px;
+    padding: 10px 0px 10px 25vw;
 }
 
 .nav-oculto{
