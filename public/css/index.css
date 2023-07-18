@@ -76,7 +76,31 @@ main>section>article>div>p {
 }
 
 .li-beneficios {
-    list-style-image: url("/public/img/verificar.png") ;
+    list-style-type: none;
+    padding-left: 3.1rem;
+    background-image: url("/public/img/verificar.png");
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: left top;
+    padding-bottom: 1.11rem;
+    margin-top: 1rem;
+}
+
+article>div>ul {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.li-noticias {
+    list-style-type: none;
+    padding-left: 3.1rem;
+    background-image: url("/public/img/periodico.png");
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    background-position: left top;
+    padding-bottom: 1.11rem;
+    margin-top: 1rem;
 }
 
 /* MEDIA QUERY TABLET*/
