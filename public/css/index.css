@@ -49,6 +49,36 @@ ul>li>a {
     display: none;
 }
 
+/* MAIN */
+
+main>section>article>div>h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 25px;
+}
+
+main>section>article>div>h1 {
+    color: #00425a;
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+main>section>article>div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main>section>article>div>p {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.li-beneficios {
+    list-style-image: url("/public/img/verificar.png") ;
+}
+
 /* MEDIA QUERY TABLET*/
 
 @media (min-width:768px){
