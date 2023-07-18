@@ -103,6 +103,33 @@ article>div>ul {
     margin-top: 1rem;
 }
 
+/* FOOTER */
+
+.footer {
+background-color: #181823;
+color: #eff5f5;
+}
+
+.title-footer {
+padding: 0 10px;
+}
+
+.logos-redes {
+    width: 1rem; 
+    padding-right: 2px;
+    margin-left: 3px;
+}
+.redes {
+font-size: 12px;
+}
+
+.contacto {
+
+}
+
+
+
+
 /* MEDIA QUERY TABLET*/
 
 @media (min-width:768px){
