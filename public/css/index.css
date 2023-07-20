@@ -45,9 +45,14 @@ ul>li>a {
     width: 40%;
 }
 
-.hamburguesa{
+.contenedor-hamburguesa{
     display: flex;
     padding: 0.6rem 0px 0.6rem 25vw;
+    
+}
+
+.hamburguesa {
+width: 2rem;
 }
 
 .nav-oculto{
@@ -181,7 +186,7 @@ width: 33%;
     padding: 0;
 }
 
-.hamburguesa{
+.contenedor-hamburguesa{
     display: none;
 }
 
@@ -195,6 +200,7 @@ width: 33%;
     padding: 4px 8px;
     margin: 0 10px;
 }
+
 /* MAIN TABLET*/
 
 .img-main {
