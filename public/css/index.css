@@ -137,7 +137,7 @@ padding: 0 10px;
 .logos-redes {
     width: 1rem; 
     margin-left: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
 }
 
 .redes {
@@ -152,6 +152,7 @@ width: 33%;
 .title2-footer {
     font-size: 0.8rem;
     margin-left: 2rem;
+    margin-bottom: 0.3rem;
 }
 
 .contacto {
@@ -235,6 +236,7 @@ flex-direction: column;
 .title2-footer {
     margin-left: 0;
     padding-bottom: 5px;
+    
 }
 
 iframe {
@@ -255,4 +257,86 @@ iframe {
 
 @media (min-width:992px){
     
+    .img-main{
+        width: 50%;
+    }
+
+    main>section>article>div>p {
+        font-size: 1.2rem;
+    }
+
+    main>section>article>div>h1{
+        font-size: 1.6rem;
+    }
+
+    article>div>ul {
+        font-size: 1.2rem;
+    }
+
+    .nav-oculto {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* triangulo abajo */
+  display: flex;
+    }
+
+    .nav-oculto li {
+  border: 1px solid #00425a;
+  margin: 5px; /* Ajusta el margen según tu diseño */
+  /* triangulo abajo */
+  position: relative;
+}
+    .opciones-nav{
+  display: block;
+  padding: 10px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  color: #181823;
+  border: none;
+  font-size: 1.3rem;
+    /* triangulo abajo */
+  position: relative;
+    }
+
+    .nav-oculto li:hover{
+       background-color: #fc7300;
+       color:#eff5f5;
+       transition: background-color 1.5s ease; /* Agrega una transición suave */ 
+    }
+
+    /* Pseudo-elemento ::before para crear el triángulo */
+.nav-oculto a::before {
+  content: '';
+  position: absolute;
+  top: -15px; /* Posiciona el triángulo arriba del enlace */
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg); /* Centra horizontalmente el triángulo */
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #eff5f5; /* Color blanco del triángulo */
+  opacity: 0; /* Inicialmente es invisible */
+  transition: opacity 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Mostrar el triángulo al pasar el cursor sobre el enlace */
+.nav-oculto a:hover::before {
+  opacity: 1;
+}
+
+.contenedor-beneficios{
+    display: block;
+}
+
+.img-beneficios{
+    margin-left: 25%;
+}
+
+.contenedor-ultimas-noticias{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
 }
