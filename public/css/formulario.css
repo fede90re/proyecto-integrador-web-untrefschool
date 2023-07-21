@@ -1,0 +1,149 @@
+* {
+box-sizing: border-box;
+margin: 0 auto;
+padding:0;
+font-family: 'Belanosima', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+header>section>h1 {
+font-family: 'Belanosima', sans-serif;
+color:#181823 ;
+font-size: 1.5rem;
+}
+
+
+.img-section{
+    background: rgb(252,115,0);
+    background: linear-gradient(180deg, rgba(252,115,0,1) 0%, rgba(31,138,112,1) 50%, rgba(0,66,90,0.9066001400560224) 100%);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title{
+    background-image: url("/public/img/institucion.png");
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    padding-bottom: 1.11rem;
+    padding-left: 2rem;
+    margin-top: 0.9rem;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+background-color: #181823;
+color: #eff5f5;
+}
+
+.title-footer {
+padding: 0 10px;
+}
+
+.logos-redes {
+    width: 1rem; 
+    margin-left: 1rem;
+    padding-top: 1.5rem;
+}
+
+.redes {
+font-size: 12px;
+width: 33%;
+}
+
+.mapa{
+    width: 33%;
+}
+
+.title2-footer {
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.contacto {
+margin-left: 5px;
+width: 33%;
+}
+
+.footer-a {
+    font-size: 0.7rem;
+}
+
+.footer-oculto {
+    display: none;
+}
+
+/* FOOTER TABLET*/
+
+.redes {
+display: flex;
+flex-direction: column;
+}
+
+.title-footer {
+    font-size: 0.8rem;
+}
+
+.logos-redes {
+    margin-left: 8rem;
+    padding-top: 0.3rem;
+}
+
+.footer-oculto{
+    display: block;
+    color: #eff5f5;
+    font-size: 0.7rem;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.title2-footer {
+    margin-left: 0;
+    padding-bottom: 5px;
+    
+}
+
+iframe {
+    width: 250px;
+    height: 125px;
+    border: 0;
+}
+
+.contacto {
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* FOOTER PC*/
+.title-footer{
+    font-size: 1rem;
+}
+.logos-redes {
+    margin-left: 11rem;
+    width: 2rem;
+}
+
+.footer-oculto {
+    margin: 0 9rem;
+    font-size: 0.8rem;
+}
+
+.title2-footer{
+    font-size: 1rem;
+}
+
+.footer-a {
+    font-size: 0.8rem;
+}
+
+

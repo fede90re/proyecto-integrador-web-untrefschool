@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Formulario de inscripción</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- links de hoja css-->
+    <link rel="stylesheet" href="/public/css/formulario.css">
+    <!-- links de tipografía Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- links de tipografía Belanosima-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--comienza el header-->
+    <header>
+        <section class="img-section">
+            <h1 class="title">Untref School</h1>
+            <nav class="nav1"></nav>
+    </header>
+    <!--comienza el main-->
+    <main>
+        <div class="container mt-5">
+            <form>
+                <div class="form-group">
+                    <label class="m-2 p-2" for="nombre">Nombre del alumno:</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label class="m-2 p-2" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label class="m-2 p-2" for="edad">Edad:</label>
+                    <textarea class="form-control" id="edad" rows="3"></textarea>
+                </div>
+                <div class="form-floating m-3 p-3">
+                    <select class="form-select p-1" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Elegir la jornada</option>
+                        <option value="1">Media jornada (de 8am a 12am)</option>
+                        <option value="2">Jornada completa (de 8am a 15am con almuerzo)</option>
+                    </select>
+                    <label class="m-1 p-1" for="floatingSelect"></label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control p-3" placeholder="Leave a comment here"
+                        id="floatingTextarea"></textarea>
+                    <label class="m-2 p-2" for="floatingTextarea">Comentarios:</label>
+                    <button type="submit" class="btn btn-primary m-3 p-3">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--comienza el footer-->
+    <footer class="footer">
+        <article style="display: flex; padding-top: 0.7rem;">
+            <section class="redes">
+                <div class="title-footer">Nuestras redes:</div>
+                <img src="/public/img/instagram.png" alt="" class="logos-redes">
+                <div class="footer-oculto">@untref.school</div>
+
+                <img src="/public/img/facebook.png" alt="" class="logos-redes">
+                <div class="footer-oculto">Untref School</div>
+
+                <img src="/public/img/twitter.png" alt="" class="logos-redes">
+                <div class="footer-oculto">@untref.school</div>
+
+            </section>
+            <section class="mapa">
+                <div class="title2-footer">Untref School:</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.46331051196185!2d-57.954258410598364!3d-34.92117854609955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e790b63bcbd7%3A0xc9580e83644380bd!2smonumento%20a%20Mariano%20Moreno!5e0!3m2!1ses!2sar!4v1689776722522!5m2!1ses!2sar"
+                    width="120" height="85" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="contacto">
+                <div class="title2-footer">Contacto:</div>
+                <section class="footer-a">
+                    <p><a>untrefschool@gmail.com</a></p>
+                    <p><a>tel: 0221 555 5554</a></p>
+                    <p><a>whatsap: 2215 774322</a></p>
+                </section>
+            </section>
+        </article>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
