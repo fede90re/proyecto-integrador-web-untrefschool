@@ -258,7 +258,7 @@ iframe {
 @media (min-width:992px){
     
     .img-main{
-        width: 50%;
+        width: 40%;
     }
 
     main>section>article>div>p {
@@ -277,13 +277,15 @@ iframe {
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-direction: column;
   /* triangulo abajo */
   display: flex;
     }
 
     .nav-oculto li {
-  border: 1px solid #00425a;
+  border: 3px solid #00425a;
   margin: 5px; /* Ajusta el margen según tu diseño */
+  border-radius: 7px;
   /* triangulo abajo */
   position: relative;
 }
@@ -338,5 +340,31 @@ iframe {
 .contenedor-ultimas-noticias{
     padding-top: 2rem;
     padding-bottom: 3rem;
+   
 }
+
+/* FOOTER PC*/
+.title-footer{
+    font-size: 1rem;
+}
+.logos-redes {
+    margin-left: 11rem;
+    width: 2rem;
+}
+
+.footer-oculto {
+    margin: 0 9rem;
+    font-size: 0.8rem;
+}
+
+.title2-footer{
+    font-size: 1rem;
+}
+
+.footer-a {
+    font-size: 0.8rem;
+}
+
+
+
 }
